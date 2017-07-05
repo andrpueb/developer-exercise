@@ -1,3 +1,4 @@
+# Warehouse Web Developer Exercise
 
 * First commit: We added the index, css and script files. We added also the jquery library.
 
