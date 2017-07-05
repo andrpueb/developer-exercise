@@ -1,0 +1,42 @@
+.options {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+ul {
+  padding: 0px;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px;
+  text-align: left;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 40%;
+  vertical-align: top;
+
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  border-top: 1px solid #2e2e2e;
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+@media screen and (min-width: 1200px) {
+  ul li{
+    max-width: 200px;
+  }
+}
