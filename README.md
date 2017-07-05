@@ -1,11 +1,9 @@
-# Warehouse Web Developer Exercise
 
-In this excercise we would like you to build a web component similar to this [screenshot](recommendation_screenshot.png) using the [JSON](data/recommendations.json) provided. Creativity is accepted but do not alter the JSON. The componet you build should display images, prices and link to the product taking into consideration how it would work with i18n.
+* First commit: We added the index, css and script files. We added also the jquery library.
 
-### Requirements
-* Responsive
-* Reusable code
+* Second commit: We uploaded the script, here we used the AJAX request method included in the jquery library to get the information from the JSON file, we then used the callback function and with a for loop we iterate to append the information to the DOM.
+We used also the Intl.NumberFormat constructor which make possible to format the price of the product according to the currency of each country.
 
-Please fork this repository and commit your changes for review.
+* Third commit: We add style and responsivness so now the images will change their size depending on the size of the screen.
 
-Amend this Readme in your forked repo and use your commits to outline the component you have created and the decisions that you have made.
+* Fourth commit: Modified the readme file.
